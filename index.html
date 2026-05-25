@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creator Lab | The Ultimate Resource Vault for Clippers, Editors & Creators</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Go viral faster with Creator Lab. Get instant access to 100+ editing presets, templates, 1,000+ royalty-free SFX, AI clipper tools, and step-by-step guides. Updated weekly.">
+  <meta name="keywords" content="clipping vault, creator vault, video editing presets, tik tok clippers, capcut templates, viral clip templates, sound effects, creator lab">
+  <meta name="author" content="Creator Lab">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://whop.com/mrnome">
+  <meta property="og:title" content="Creator Lab | The Ultimate Resource Vault for Creators">
+  <meta property="og:description" content="Go viral faster with 1,000+ sound effects, viral templates, presets, and AI video clipping tools. Stop guessing what works.">
+  <meta property="og:image" content="https://whop.com/mrnome/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://whop.com/mrnome">
+  <meta property="twitter:title" content="Creator Lab | The Ultimate Resource Vault for Creators">
+  <meta property="twitter:description" content="Go viral faster with 1,000+ sound effects, viral templates, presets, and AI video clipping tools. Stop guessing what works.">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔐</text></svg>">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" id="scroll-progress"></div>
+
+  <!-- Dynamic Glowing Background -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow-orb-1"></div>
+  <div class="bg-glow-orb-2"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="logo" id="nav-logo">
+        <svg class="logo-flask" width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+          <path d="M42 15H58M46 15V38M54 38V15M30 80L46 38H54L70 80C72 85 68 90 62 90H38C32 90 28 85 30 80Z" stroke="currentColor" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+          <path d="M33 73L43 47H57L67 73C68 76 66 79 63 79H37C34 79 32 76 33 73Z" fill="var(--accent-gold)" opacity="0.9" />
+          <circle class="logo-bubble-1" cx="50" cy="30" r="4" fill="var(--accent-gold)" />
+          <circle class="logo-bubble-2" cx="44" cy="20" r="3.5" fill="var(--accent-gold)" />
+          <circle class="logo-bubble-3" cx="56" cy="24" r="3" fill="var(--accent-gold)" />
+        </svg>
+        <span>CREATOR <span style="color: var(--accent-gold);">LAB</span></span>
+      </a>
+      
+      <div class="nav-links" id="nav-menu">
+        <a href="#problem">The Struggle</a>
+        <a href="#features">What's Inside</a>
+        <a href="#comparison">Before & After</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#affiliate">Earn Money</a>
+        <a href="#faq">FAQs</a>
+      </div>
+      
+      <div class="nav-actions">
+        <a href="#pricing" class="btn btn-secondary btn-sm" id="nav-cta-btn">Access Vault</a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAVIGATION PANEL -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-links">
+      <a href="#problem">The Struggle</a>
+      <a href="#features">What's Inside</a>
+      <a href="#comparison">Before & After</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#affiliate">Earn Money</a>
+      <a href="#faq">FAQs</a>
+    </div>
+    <div class="mobile-actions">
+      <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-primary" id="mobile-cta-primary">Get Monthly Access — $9.99/mo</a>
+      <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-secondary" id="mobile-cta-secondary">Get Lifetime Access — $20.99</a>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="badge badge-primary badge-glow">
+          ⚡ UNFAIR CREATOR ADVANTAGE
+        </div>
+        <div class="live-clippers-bar">
+          <span class="pulse-dot-green"></span> 
+          <strong>142 clippers</strong> online in the vault right now
+        </div>
+        <h1 id="hero-headline" class="text-mask-trigger">
+          <span class="text-mask-line"><span>Stop Editing Blind.</span></span>
+          <span class="text-mask-line"><span class="text-gradient">Get the Vault That</span></span>
+          <span class="text-mask-line"><span>Top Creators Use to Go Viral.</span></span>
+        </h1>
+        <p class="hero-subheadline" id="hero-subheadline">
+          1,000+ sound effects, viral templates, editing presets, AI clipping tools, and step-by-step guides — all in one place. Updated weekly.
+        </p>
+        
+        <div class="hero-ctas">
+          <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-primary" id="hero-btn-monthly">
+            Get Monthly Access — $9.99/mo
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-secondary" id="hero-btn-lifetime">
+            Get Lifetime Access — $20.99
+          </a>
+        </div>
+
+        <div class="hero-trust-bar">
+          <span>Optimized for</span>
+          <div class="hero-trust-platforms">
+            <div class="hero-trust-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              TikTok
+            </div>
+            <span>•</span>
+            <div class="hero-trust-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg>
+              Instagram Reels
+            </div>
+            <span>•</span>
+            <div class="hero-trust-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+              YouTube Shorts
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" style="transition-delay: 0.1s;">
+        <!-- Beautiful Interactive CSS Mockup representing a video editor's workspace -->
+        <div class="mockup-container">
+          <div class="mockup-workspace">
+            <div class="mockup-header">
+              <div class="mockup-dots">
+                <span class="mockup-dot active"></span>
+                <span class="mockup-dot"></span>
+                <span class="mockup-dot"></span>
+              </div>
+              <span class="mockup-title">🔐 clipping_vault_v1.4</span>
+              <span style="color: var(--accent-pink); font-size: 0.65rem; font-weight: 700; font-family: var(--font-heading);">● LIVE UPDATED</span>
+            </div>
+            
+            <div class="mockup-editor">
+              <div class="mockup-main-panel">
+                <div class="mockup-preview-window">
+                  <div class="mockup-video-clip">
+                    <div class="mockup-overlay-preset">CAPCUT_ZOOM_IN.FFT</div>
+                  </div>
+                </div>
+                
+                <div class="mockup-waveform-sec">
+                  <div class="mockup-waveform-info">
+                    <span class="mockup-waveform-name">🎵 Phonk Hook (Bass Boosted)</span>
+                    <span class="mockup-waveform-time">00:08:24</span>
+                  </div>
+                  <div class="mockup-wave" id="mockup-wave">
+                    <div class="mockup-bar active" style="height: 40%;"></div>
+                    <div class="mockup-bar active" style="height: 65%;"></div>
+                    <div class="mockup-bar active" style="height: 80%;"></div>
+                    <div class="mockup-bar" style="height: 50%;"></div>
+                    <div class="mockup-bar active" style="height: 95%;"></div>
+                    <div class="mockup-bar active" style="height: 35%;"></div>
+                    <div class="mockup-bar active" style="height: 70%;"></div>
+                    <div class="mockup-bar" style="height: 85%;"></div>
+                    <div class="mockup-bar active" style="height: 50%;"></div>
+                    <div class="mockup-bar active" style="height: 90%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dynamic Live Community Chat Feed inside Mockup -->
+              <div class="mockup-chat-panel">
+                <div class="mockup-chat-header">💬 CHAT_FEED_LIVE</div>
+                <div class="mockup-chat-messages" id="mockup-chat-messages">
+                  <div class="chat-msg">
+                    <span class="chat-user">@dan_cutz</span>
+                    <span class="chat-text">Saved me 3 hours of edits today!</span>
+                  </div>
+                  <div class="chat-msg">
+                    <span class="chat-user">@reels_god</span>
+                    <span class="chat-text">Phonk SFX are absolutely nuts 🔥</span>
+                  </div>
+                  <div class="chat-msg">
+                    <span class="chat-user">@clipper_tok</span>
+                    <span class="chat-text">already hit 500k views on shorts 🚀</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Floating micro UI badges -->
+          <div class="floating-badge badge-1">
+            <div class="badge-icon purple">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
+            </div>
+            <div class="badge-info">
+              <span class="badge-title">AI Video Clipper</span>
+              <span class="badge-value">Beta Ready</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-2">
+            <div class="badge-icon green">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="badge-info">
+              <span class="badge-title">Referrals Commission</span>
+              <span class="badge-value">25% - 50%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number text-gradient">100+</span>
+        <span class="stat-label">Presets & Templates</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number text-gradient-cyan">1,000+</span>
+        <span class="stat-label">Music & SFX Tracks</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number text-gradient">Weekly</span>
+        <span class="stat-label">Asset Updates</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number text-gradient-cyan">50%</span>
+        <span class="stat-label">Max Affiliate Cut</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM SECTION -->
+  <section class="problem section-padding" id="problem">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge badge-primary" style="color: var(--accent-red); background: rgba(239, 68, 68, 0.08); border-color: rgba(239, 68, 68, 0.15);">
+          🚨 The Reality Check
+        </div>
+        <h2>Why 99% of Short-Form Creators Stay Stuck</h2>
+        <p>Short-form algorithm metrics are unforgiving. If you struggle with retention, you're dead in the water.</p>
+      </div>
+
+      <div class="problem-grid">
+        <div class="problem-card reveal">
+          <div class="problem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3>Hours of Editing Wasted</h3>
+          <p>You're spending hours editing and still not getting views. You manually sync every cut, look for tracks, and try to piece things together by guessing.</p>
+        </div>
+
+        <div class="problem-card reveal" style="transition-delay: 0.1s;">
+          <div class="problem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <h3>Basic, Boring Transitions</h3>
+          <p>Your clips sound the same. Your transitions are basic. Without unique audio design and sleek, high-retention zoom patterns, viewers swipe away in 1 second.</p>
+        </div>
+
+        <div class="problem-card reveal" style="transition-delay: 0.2s;">
+          <div class="problem-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+          <h3>Guessing What Works</h3>
+          <p>You're guessing what works while other creators are using proven systems. You hop on expired audio trends and copy outdated layouts, wondering why you remain stuck.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION (WHAT'S INSIDE) -->
+  <section class="features section-padding" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge badge-primary">
+          🎧 UNPACK THE VAULT
+        </div>
+        <h2>What's Inside Creator Lab?</h2>
+        <p>The complete digital resource vault designed to give clippers, video editors, and content creators an unfair advantage.</p>
+      </div>
+
+      <!-- MAIN CORE PILLARS GRID -->
+      <div class="features-grid-overhaul">
+        
+        <!-- Column 1: Core Vault (What's Inside) -->
+        <div class="vault-pillar core-pillar reveal">
+          <div class="pillar-header">
+            <span class="pillar-icon">🎧</span>
+            <h3>What’s Inside</h3>
+          </div>
+          <div class="pillar-cards">
+            <!-- Viral Music & SFX Library -->
+            <div class="pillar-card highlight-blue">
+              <div class="pillar-card-icon">🎵</div>
+              <div class="pillar-card-content">
+                <h4>Viral Music & SFX Library</h4>
+                <p>Massive archive of trending audio. Used by the biggest clippers to retain views and scale hooks.</p>
+              </div>
+            </div>
+            <!-- AI Video Clipper -->
+            <div class="pillar-card highlight-gold">
+              <div class="pillar-card-icon">🧠</div>
+              <div class="pillar-card-content">
+                <h4>AI Video Clipper</h4>
+                <p>Smart auto-syncing technology for ultra-fast, high-retention short-form edits.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Bonus Packages -->
+        <div class="vault-pillar bonus-pillar reveal" style="transition-delay: 0.1s;">
+          <div class="pillar-header">
+            <span class="pillar-icon">💼</span>
+            <h3>Bonus Packages</h3>
+          </div>
+          <div class="pillar-grid-sub">
+            <!-- Content Creator Pack -->
+            <div class="sub-pack-card">
+              <div class="sub-pack-icon">📱</div>
+              <h4>Content Creator Pack</h4>
+              <p>Tailored specifically for TikTok, Instagram Reels, and YouTube Shorts.</p>
+            </div>
+            <!-- Image Creator Pack -->
+            <div class="sub-pack-card">
+              <div class="sub-pack-icon">🖼️</div>
+              <h4>Image Creator Pack</h4>
+              <p>High-quality thumb templates and assets to boost CTR.</p>
+            </div>
+            <!-- Premium Pro Pack -->
+            <div class="sub-pack-card">
+              <div class="sub-pack-icon">🎁</div>
+              <h4>Premium Pro Pack</h4>
+              <p>Exclusive FX presets and custom music files for pro creators.</p>
+            </div>
+            <!-- Special Pack -->
+            <div class="sub-pack-card">
+              <div class="sub-pack-icon">🪄</div>
+              <h4>Special Pack</h4>
+              <p>Limited-edition release containing rare assets for early buyers.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: Tech Features -->
+        <div class="vault-pillar specs-pillar reveal" style="transition-delay: 0.2s;">
+          <div class="pillar-header">
+            <span class="pillar-icon">✅</span>
+            <h3>Vault Features</h3>
+          </div>
+          <ul class="specs-list">
+            <li>
+              <div class="spec-bullet">📂</div>
+              <div class="spec-text">
+                <strong>Organized folders</strong>
+                <span>Optimized structure for instant access during fast-paced edits.</span>
+              </div>
+            </li>
+            <li>
+              <div class="spec-bullet">🎵</div>
+              <div class="spec-text">
+                <strong>MP3 & WAV Formats</strong>
+                <span>Universal compatibility with Premiere, After Effects, DaVinci, and CapCut.</span>
+              </div>
+            </li>
+            <li>
+              <div class="spec-bullet">🔁</div>
+              <div class="spec-text">
+                <strong>Regular Updates</strong>
+                <span>Fresh, trending sounds and templates added directly to your Whop dashboard.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE VS AFTER SECTION -->
+  <section class="comparison section-padding" id="comparison">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge badge-primary" style="color: var(--accent-green); background: rgba(16, 185, 129, 0.08); border-color: rgba(16, 185, 129, 0.15);">
+          📈 Pro Results
+        </div>
+        <h2>Stop Guessing. Deploy Proven Systems.</h2>
+        <p>The clear difference between posting blindly and building a professional viral content asset machine.</p>
+      </div>
+
+      <div class="comparison-grid">
+        <!-- Before Card -->
+        <div class="comparison-card before reveal-left">
+          <div class="comparison-card-header">
+            <span class="comparison-label">Before Creator Lab</span>
+            <span class="comparison-tag">STUCK CREATOR</span>
+          </div>
+          
+          <div class="comparison-list">
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </div>
+              <span class="comparison-item-text">Hours of editing and manual keyframing</span>
+            </div>
+
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </div>
+              <span class="comparison-item-text">Generic, basic transitions and layouts</span>
+            </div>
+
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </div>
+              <span class="comparison-item-text">No views, stuck at the 200 views jail</span>
+            </div>
+
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </div>
+              <span class="comparison-item-text">Guessing what works and copying stale trends</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- After Card -->
+        <div class="comparison-card after reveal-right">
+          <div class="comparison-card-header">
+            <span class="comparison-label text-gradient">The Pro Way</span>
+            <span class="comparison-tag">VAULT MEMBER</span>
+          </div>
+          
+          <div class="comparison-list">
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <span class="comparison-item-text">Professional edits in minutes using drag-and-drop assets</span>
+            </div>
+
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <span class="comparison-item-text">Viral-ready clips with hyper-engaging transitions and audio</span>
+            </div>
+
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <span class="comparison-item-text">Exploding retention graphs and continuous audience growth</span>
+            </div>
+
+            <div class="comparison-item">
+              <div class="comparison-check">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <span class="comparison-item-text">Proven frameworks based on raw analytical backends</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING SECTION -->
+  <section class="pricing section-padding" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge badge-primary">
+          💎 PRICING PLAN
+        </div>
+        <h2>Unlock the Vaults Today</h2>
+        <p>Get instant access to everything you need to break the algorithm. Choose the level that matches your ambition.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Card 1: Monthly Access -->
+        <div class="pricing-card reveal">
+          <div class="card-shine"></div>
+          <div class="pricing-header">
+            <span class="pricing-tier">Monthly Access</span>
+            <p class="pricing-desc">Perfect for creators who want fresh content every month</p>
+          </div>
+          
+          <div class="pricing-price-container">
+            <span class="pricing-price">$9.99</span>
+            <span class="pricing-period">/month</span>
+          </div>
+
+          <div class="pricing-divider"></div>
+
+          <div class="pricing-features">
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Full Access to Clipping Vault
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              100+ Presets & Templates
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              1,000+ Music & SFX Library
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Weekly updates & Community
+            </div>
+          </div>
+
+          <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-secondary pricing-btn" id="pricing-monthly-checkout">Get Monthly Access</a>
+        </div>
+
+        <!-- Card 2: Lifetime Access (Popular Flagship) -->
+        <div class="pricing-card popular reveal" style="transition-delay: 0.1s;">
+          <div class="card-shine"></div>
+          <span class="pricing-popular-badge">BEST VALUE</span>
+          
+          <div class="pricing-header">
+            <span class="pricing-tier text-gradient">Lifetime Access</span>
+            <p class="pricing-desc">One payment, unlimited access forever. Never pay again.</p>
+          </div>
+          
+          <div class="pricing-price-container">
+            <span class="pricing-price">$20.99</span>
+            <span class="pricing-period">one-time</span>
+          </div>
+
+          <div class="pricing-divider"></div>
+
+          <div class="pricing-features">
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <strong>Lifetime Access</strong> to Clipping Vault
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              All future preset additions free
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              AI Video Clipper (Beta Included)
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Exclusive Community Chat access
+            </div>
+          </div>
+
+          <div class="urgency-timer-container">
+            <span class="timer-label">⚡ PROMO PRICING CLOSES IN</span>
+            <div class="timer-clock">
+              <span id="timer-min">14</span>m : <span id="timer-sec">59</span>s
+            </div>
+          </div>
+
+          <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-primary pricing-btn" id="pricing-lifetime-checkout">Get Lifetime Access</a>
+        </div>
+
+        <!-- Card 3: Creator Vault -->
+        <div class="pricing-card reveal" style="transition-delay: 0.2s;">
+          <div class="card-shine"></div>
+          <div class="pricing-header">
+            <span class="pricing-tier">Creator Vault</span>
+            <p class="pricing-desc">The growth playbook for serious creators trying to build a brand</p>
+          </div>
+          
+          <div class="pricing-price-container">
+            <span class="pricing-price">$10.99</span>
+            <span class="pricing-period">one-time</span>
+          </div>
+
+          <div class="pricing-divider"></div>
+
+          <div class="pricing-features">
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Full Access to Creator Vault
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Viral editing technique breakdowns
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Monetization & growth blueprint
+            </div>
+            <div class="pricing-feature-item">
+              <svg class="pricing-feature-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Successful behind-the-scenes plays
+            </div>
+          </div>
+
+          <a href="https://whop.com/mrnome/creator-vault-7f/" class="btn btn-secondary pricing-btn" id="pricing-creatorvault-checkout">Get Creator Vault</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AFFILIATE SECTION (EARN WHILE YOU SHARE) -->
+  <section class="affiliate section-padding" id="affiliate">
+    <div class="container affiliate-grid">
+      <div class="affiliate-content reveal">
+        <div class="badge badge-primary" style="color: var(--accent-cyan); background: rgba(6, 182, 212, 0.08); border-color: rgba(6, 182, 212, 0.15);">
+          💸 Earn While You Share
+        </div>
+        <h2>Monetize Your Audience. Drop the Link & Earn.</h2>
+        <p>Love the vault? Share it and earn 25% on every sale. Drop your link in your bio, send it to friends, post it in group chats. No limits on what you can earn.</p>
+        
+        <div class="affiliate-perks">
+          <div class="affiliate-perk-item">
+            <div class="affiliate-perk-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+            </div>
+            <span class="affiliate-perk-text">25% Standard Referral Commission</span>
+          </div>
+
+          <div class="affiliate-perk-item">
+            <div class="affiliate-perk-icon" style="background: rgba(139, 92, 246, 0.1); color: var(--accent-purple);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <span class="affiliate-perk-text">50% Global Commission on Clipping Vault</span>
+          </div>
+
+          <div class="affiliate-perk-item">
+            <div class="affiliate-perk-icon" style="background: rgba(217, 70, 239, 0.1); color: var(--accent-pink);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="affiliate-perk-text">30% Global Commission on Creator Vault</span>
+          </div>
+        </div>
+
+        <a href="https://whop.com/mrnome/" class="btn btn-secondary" id="affiliate-portal-btn">Join Affiliate Program</a>
+      </div>
+
+      <!-- Interactive Calculator Box -->
+      <div class="calculator-box reveal" style="transition-delay: 0.1s;">
+        <h3 class="calculator-title">Estimate Your Earnings</h3>
+        
+        <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem;">
+          <label style="display: flex; align-items: center; gap: 0.5rem; font-family: var(--font-heading); font-weight: 600; cursor: pointer; font-size: 0.9rem;">
+            <input type="radio" name="affiliate-tier" value="standard" checked style="accent-color: var(--accent-cyan);">
+            Standard (25%)
+          </label>
+          <label style="display: flex; align-items: center; gap: 0.5rem; font-family: var(--font-heading); font-weight: 600; cursor: pointer; font-size: 0.9rem;">
+            <input type="radio" name="affiliate-tier" value="global" style="accent-color: var(--accent-cyan);">
+            Global Pro (50%/30%)
+          </label>
+        </div>
+
+        <div class="calculator-slider-container">
+          <div class="calculator-labels">
+            <span>Referrals per Month</span>
+            <span class="calculator-val-display" id="referrals-count">30</span>
+          </div>
+          <input type="range" min="1" max="150" value="30" class="calculator-slider" id="affiliate-slider">
+        </div>
+
+        <div class="calculator-results">
+          <div>
+            <div class="calculator-earnings-num" id="earnings-amount">$0</div>
+            <div class="calculator-earnings-label">Estimated Payout / Month</div>
+          </div>
+        </div>
+
+        <p style="font-size: 0.75rem; color: var(--text-muted); text-align: center; line-height: 1.4;">
+          *Estimates based on equal splits across product purchases. Payouts are handled via Whop securely and recurringly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq section-padding" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="badge badge-primary">
+          ❓ Got Questions?
+        </div>
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about access, updates, and compatibility.</p>
+      </div>
+
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-item reveal">
+          <button class="faq-question-btn" id="faq-btn-1">
+            <span class="faq-question">What's included?</span>
+            <span class="faq-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="faq-answer-container">
+            <div class="faq-answer">
+              You get full instant entry to the resource vault, including 100+ premium presets and templates, a library of 1,000+ royalty-free sounds and SFX, our automated AI Video Clipper (Beta), regularly updated viral music collections, step-by-step clipping guides, and direct entry to the Community Chat and strategic growth tip forums.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item reveal" style="transition-delay: 0.05s;">
+          <button class="faq-question-btn" id="faq-btn-2">
+            <span class="faq-question">Is it updated?</span>
+            <span class="faq-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="faq-answer-container">
+            <div class="faq-answer">
+              Yes, new high-converting transitions, premium templates, trending audio tracks, and growth tips are added weekly to make sure our members maintain an unfair advantage in algorithms.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item reveal" style="transition-delay: 0.1s;">
+          <button class="faq-question-btn" id="faq-btn-3">
+            <span class="faq-question">What platforms does this work for?</span>
+            <span class="faq-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="faq-answer-container">
+            <div class="faq-answer">
+              All files are tailored and structured perfectly for TikTok, Instagram Reels, YouTube Shorts, and any modern vertical short-form editing suite.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item reveal" style="transition-delay: 0.15s;">
+          <button class="faq-question-btn" id="faq-btn-4">
+            <span class="faq-question">Can I get a refund?</span>
+            <span class="faq-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="faq-answer-container">
+            <div class="faq-answer">
+              Yes, all purchase entries are completely protected and processed transparently through Whop with customer support and buyer protection systems in place.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item reveal" style="transition-delay: 0.2s;">
+          <button class="faq-question-btn" id="faq-btn-5">
+            <span class="faq-question">How do I access it?</span>
+            <span class="faq-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </button>
+          <div class="faq-answer-container">
+            <div class="faq-answer">
+              Instantly after checkout is complete. Whop will register your credentials and provide your dashboard credentials where you can view guides, download assets, and participate in community threads.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA SECTION -->
+  <section class="cta-section" id="cta-section">
+    <div class="container">
+      <div class="cta-box reveal">
+        <h2 id="final-cta-headline">Your next viral clip starts here.</h2>
+        <p class="cta-desc">Stop fighting algorithms blindly. Equip your editing arsenal with presets, tools, and libraries that work.</p>
+        
+        <div class="cta-buttons">
+          <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-primary" id="final-btn-monthly">
+            Get Monthly Access — $9.99/mo
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="https://whop.com/mrnome/clipping-vault-59/" class="btn btn-secondary" id="final-btn-lifetime">
+            Get Lifetime Access — $20.99
+          </a>
+        </div>
+
+        <div class="cta-urgency" id="final-urgency">
+          <span class="pulse-dot"></span>
+          Vault updated 2 hours ago. Next update in 4 days.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        CREATOR LAB<span class="logo-dot"></span>
+      </div>
+      
+      <div class="footer-links">
+        <a href="#problem">The Struggle</a>
+        <a href="#features">What's Inside</a>
+        <a href="#comparison">Before & After</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#affiliate">Affiliate</a>
+        <a href="#faq">FAQs</a>
+      </div>
+      
+      <div class="footer-copy">
+        &copy; 2026 Creator Lab. All rights reserved. Powered securely by <a href="https://whop.com/mrnome" target="_blank" style="color: white; font-weight: 600; text-decoration: underline;">Whop</a>.
+      </div>
+    </div>
+  <!-- Interactive Elements & Background Particles -->
+  <div class="particles-container" id="particles-container"></div>
+  
+  <!-- Checkout Redirect Loader -->
+  <div id="checkout-loader" class="checkout-loader-overlay">
+    <div class="checkout-loader-box">
+      <div class="loader-spinner"></div>
+      <h3 id="checkout-loader-title">Connecting to Whop...</h3>
+      <p id="checkout-loader-subtitle">Preparing secure payment gateway and generating access keys</p>
+    </div>
+  </div>
+
+  <!-- Social Proof Checkout Toast -->
+  <div id="checkout-toast" class="toast-notification"></div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
